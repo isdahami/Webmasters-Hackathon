@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: "Inter", sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap");
+}
+#nav-id {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  background-color: #990000;
+}
+#nav-id .nav-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#nav-id .nav-logo .nav-logo-txt {
+  color: #fff;
+  font-family: "Inter";
+  font-weight: 600;
+}
+#nav-id .nav-links {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+  transition: all 0.3s ease-in-out;
+}
+#nav-id .nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 24px;
+  margin: 0 15px;
+}
+#nav-id .nav-links a:hover {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+#nav-id .nav-ham-menu {
+  display: none;
+  cursor: pointer;
+}
+#nav-id .nav-ham-menu .nav-bar {
+  width: 30px;
+  height: 4px;
+  margin: 4px 0;
+  background-color: #fff;
+}
+@media screen and (max-width: 768px) {
+  #nav-id #nav-id {
+    padding-right: 20px;
+  }
+  #nav-id .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #990000;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  #nav-id .nav-links a {
+    display: block;
+    margin: 10px 0;
+  }
+  #nav-id .nav-links a:hover {
+    border-bottom: 0px solid #fff;
+  }
+  #nav-id .nav-ham-menu {
+    display: block;
+    padding: 0 25px;
+  }
+  #nav-id .show {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
