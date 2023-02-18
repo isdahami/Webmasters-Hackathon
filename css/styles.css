@@ -154,14 +154,8 @@ p {
     min-height: 5%;
     font-size: 50%;
   }
-  #footer-id .footer-head .footer-txt {
-    font-size: 16px;
-  }
   #footer-id .social-icons .fa-brands {
     font-size: 24px;
-  }
-  #footer-id .footer-end .footer-end-txt {
-    font-size: 8px;
   }
 }
 .home-wrapper {
