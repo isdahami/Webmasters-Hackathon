@@ -41,4 +41,5 @@ function initApp() {
 /* This is a jQuery function that is called when the document is ready. */
 $(document).ready(function () {
     initApp();
+    
 });
