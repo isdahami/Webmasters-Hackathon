@@ -15,6 +15,9 @@ function route() {
     }
 }
 
+/*
+ When the hamburger menu is clicked, toggle the class 'show' on the nav links.
+*/
 function toggleHamburgerMenu() {
     const $hamburgerMenu = $('.nav-ham-menu');
     const $navLinks = $('.nav-links');
